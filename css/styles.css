@@ -1,0 +1,171 @@
+/* Common */
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* Nav */
+
+.logo-nav {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.logo-dark-studio {
+    color: #2E2F42;
+}
+
+.nav-menu-item {
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.nav-menu-item:hover,
+.nav-menu-item:focus {
+    color: #404BBF;
+}
+
+.nav-address {
+    font-style: normal;
+}
+
+.nav-address-item {
+    line-height: 150%;
+    letter-spacing: 0.02em;
+}
+
+.nav-address-item:hover,
+.nav-address-item:focus {
+    color: #404BBF;
+}
+
+/* Hero */
+
+.hero-section {
+    background-color: #2E2F42;
+}
+
+.hero-title {
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #ffffff;
+}
+
+.hero-btn {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    background-color: #4D5AE5;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404BBF;
+}
+
+/* Benefits */
+
+.section-title {
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+
+    text-transform: capitalize;
+}
+
+.benefits-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.benefits-text {
+    line-height: 150%;
+    letter-spacing: 0.02em;
+}
+
+/* Team */
+
+.team-section {
+    background-color: #F4F4FD;
+}
+
+.team-list-item {
+    background-color: #FFFFFF;
+}
+
+.team-name-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+}
+
+.team-position-title {
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+/* Portfolio */
+
+.portfolio-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.portfolio-item-descr {
+    line-height: 150%;
+    letter-spacing: 0.02em;
+}
+
+/* Footer */
+
+.logo-white-studio {
+    color: #F4F4FD;
+}
+
+.footer-cta-text {
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
+
+.website-footer {
+    background-color: #2E2F42;
+}
