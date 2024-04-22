@@ -20,39 +20,43 @@
     <title>WebStudio</title>
   </head>
   <body>
-    <header>
+    <header class="header-container">
       <!-- Navigation -->
-      <nav>
-        <a class="logo-nav" href="./index.html"
-          >Web<span class="logo-dark-studio">Studio</span></a
-        >
-        <ul>
-          <li><a class="nav-menu-item" href="./index.html">Studio</a></li>
-          <li><a class="nav-menu-item" href="">Portfolio</a></li>
-          <li><a class="nav-menu-item" href="">Contacts</a></li>
-        </ul>
-      </nav>
-      <!-- Address -->
-      <address class="nav-address">
-        <ul>
-          <li>
-            <a class="nav-address-item" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="nav-address-item" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="container nav-container">
+        <nav class="nav-menu">
+          <a class="logo-nav" href="./index.html"
+            >Web<span class="logo-dark-studio">Studio</span></a
+          >
+          <ul class="nav-menu-list">
+            <li><a class="nav-menu-item" href="./index.html">Studio</a></li>
+            <li><a class="nav-menu-item" href="">Portfolio</a></li>
+            <li><a class="nav-menu-item" href="">Contacts</a></li>
+          </ul>
+        </nav>
+        <!-- Address -->
+        <address class="nav-address">
+          <ul class="nav-address-list">
+            <li>
+              <a class="nav-address-item" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="nav-address-item" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
       <!-- Hero -->
       <section class="hero-section">
-        <h1 class="hero-title">Effective Solutions for Your Business</h1>
-        <button class="hero-btn" type="button">Order Service</button>
+        <div class="container hero-container">
+          <h1 class="hero-title">Effective Solutions for Your Business</h1>
+          <button class="hero-btn" type="button">Order Service</button>
+        </div>
       </section>
       <!-- Our benefits -->
       <section>

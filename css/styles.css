@@ -8,6 +8,8 @@ body {
 
 ul, ol {
     list-style-type: none;
+    margin: 0;
+    padding-left: 0;
 }
 
 a {
@@ -19,7 +21,42 @@ button {
     cursor: pointer;
 }
 
-/* Nav */
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+/* ========== HEADER ========== */
+
+.header-container {
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 76px;
+    align-items: center;
+}
+
+.nav-menu-list {
+    display: flex;
+    gap: 40px;
+}
 
 .logo-nav {
     font-family: "Raleway", sans-serif;
@@ -36,6 +73,10 @@ button {
 }
 
 .nav-menu-item {
+    display: block;
+    padding-top: 36px;
+    padding-bottom: 36px;
+
     font-weight: 500;
     line-height: 150%;
     letter-spacing: 0.02em;
@@ -51,6 +92,13 @@ button {
     font-style: normal;
 }
 
+.nav-address-list {
+    display: flex;
+    gap: 40px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
 .nav-address-item {
     line-height: 150%;
     letter-spacing: 0.02em;
@@ -61,13 +109,23 @@ button {
     color: #404BBF;
 }
 
-/* Hero */
+/* ========== HERO ========== */
+
+.hero-container {
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
 
 .hero-section {
     background-color: #2E2F42;
 }
 
 .hero-title {
+    max-width: 496px;
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
+
     font-size: 56px;
     line-height: 107%;
     letter-spacing: 0.02em;
@@ -76,12 +134,22 @@ button {
 }
 
 .hero-btn {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    padding: 16px 32px;
+    margin-left: auto;
+    margin-right: auto;
+
     font-family: inherit;
     font-weight: 500;
     line-height: 150%;
     letter-spacing: 0.04em;
     color: #ffffff;
     background-color: #4D5AE5;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    border: 0 transparent;
+    border-radius: 4px;
 }
 
 .hero-btn:hover,
@@ -89,7 +157,7 @@ button {
     background-color: #404BBF;
 }
 
-/* Benefits */
+/* ========== BENEFITS ========== */
 
 .section-title {
     font-size: 36px;
@@ -114,7 +182,7 @@ button {
     letter-spacing: 0.02em;
 }
 
-/* Team */
+/* ========== TEAM ========== */
 
 .team-section {
     background-color: #F4F4FD;
@@ -139,7 +207,7 @@ button {
     text-align: center;
 }
 
-/* Portfolio */
+/* ========== PORTFOLIO ========== */
 
 .portfolio-item-title {
     font-weight: 500;
@@ -154,7 +222,7 @@ button {
     letter-spacing: 0.02em;
 }
 
-/* Footer */
+/* ========== FOOTER ========== */
 
 .logo-white-studio {
     color: #F4F4FD;
