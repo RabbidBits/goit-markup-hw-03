@@ -36,6 +36,28 @@ img {
     margin: 0 auto;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.section-paddings {
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+
+.section-title-margin {
+    margin-bottom: 72px;
+}
+
 /* ========== HEADER ========== */
 
 .header-container {
@@ -169,7 +191,18 @@ img {
     text-transform: capitalize;
 }
 
+.benefits-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.benefits-list-item {
+    max-width: calc((100% - 72px) / 4);
+}
+
 .benefits-title {
+    margin-bottom: 8px;
+
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
@@ -188,11 +221,26 @@ img {
     background-color: #F4F4FD;
 }
 
+.team-list {
+    display: flex;
+    justify-content: space-between;
+}
+
 .team-list-item {
+    width: calc((100% - 72px) / 4);
+
     background-color: #FFFFFF;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    border-radius: 0 0 4px 4px;
+}
+
+.team-list-photo {
+    margin-bottom: 32px;
 }
 
 .team-name-title {
+    margin-bottom: 8px;
+
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
@@ -202,6 +250,8 @@ img {
 }
 
 .team-position-title {
+    margin-bottom: 32px;
+
     line-height: 150%;
     letter-spacing: 0.02em;
     text-align: center;
@@ -209,7 +259,29 @@ img {
 
 /* ========== PORTFOLIO ========== */
 
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 48px;
+}
+
+.portfolio-list-item {
+    width: calc((100% - 48px) / 3);
+
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+}
+
+.portfolio-item-pic {
+    margin-bottom: 32px;
+}
+
 .portfolio-item-title {
+    padding-left: 16px;
+    margin-bottom: 8px;
+
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
@@ -218,6 +290,9 @@ img {
 }
 
 .portfolio-item-descr {
+    padding-left: 16px;
+    margin-bottom: 32px;
+
     line-height: 150%;
     letter-spacing: 0.02em;
 }
